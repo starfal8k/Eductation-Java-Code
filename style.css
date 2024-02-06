@@ -71,6 +71,7 @@ a {
     width: 80%;
     margin: 0 auto;
     padding: 20px;
+    white-space: pre-line;
     color: #fff;
   background-color: #2d2d2d;
   padding: 20px;
@@ -87,4 +88,12 @@ a {
 .tg {
   font-family: Monaco;
   color: cornflowerblue;
+}
+
+#log {
+  white-space: pre-line;
+  text-shadow: #fff 0 0 10px;
+}
+hr {
+  box-shadow: #fff 0 0 10px;
 }
