@@ -4,5 +4,5 @@ document.addEventListener("DOMContentLoaded", function(){
   document.getElementById('nameSite').textContent = siteConfig.nameSite;
   document.getElementById('nameH1').textContent = siteConfig.nameH1;
   document.getElementById('version').textContent = siteConfig.version;
-
+  document.getElementById('infos').textContent = siteConfig.infos;
 });

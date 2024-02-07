@@ -1,4 +1,8 @@
-function Onl() {
-  alert("Библиотеки\n________\n- Prism -\n________");
-  console.log('Messange Loaded');
-}
+document.addEventListener('DOMContentLoaded', function() {
+    var modal = document.querySelector('.modal-container');
+    var closeModalBtn = document.querySelector('#close-modal');
+  
+    closeModalBtn.addEventListener('click', function() {
+      modal.style.display = 'none';
+    });
+  });
