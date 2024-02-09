@@ -1,0 +1,130 @@
+body {
+  background-color: #1d1d1d;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+}
+
+a {
+  color: #fff;
+}
+
+.less {
+  text-align: center;
+}
+
+.button-ed {
+  background: #ff900e;
+  color: #fff;
+  padding: 7px 20px;
+  margin: 3px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 0 10px #ff900e;
+}
+
+.button-back {
+  text-align: left;
+  background: #ff900e;
+  color: #fff;
+  padding: 7px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 0 10px #ff900e;
+}
+
+.info {
+  background: #101010;
+  color: #fff;
+  margin: 200px auto;
+  padding: 30px;
+  border: solid #ff900e;
+  border-radius: 7px;
+  box-shadow: 0 0 10px #ff900e;
+}
+
+.less1 {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    white-space: pre-line;
+    color: #fff;
+  background-color: #2d2d2d;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .less1 {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+.tg {
+  font-family: Monaco;
+  color: cornflowerblue;
+}
+
+#log {
+  white-space: pre-line;
+  text-shadow: #fff 0 0 10px;
+}
+hr {
+  box-shadow: #fff 0 0 10px;
+}
+
+.modal-container {
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    position: fixed;
+    background-color: rgb(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .modal-content {
+    background: #242424;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background: #ed0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
