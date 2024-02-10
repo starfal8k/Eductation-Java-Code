@@ -18,7 +18,14 @@ V. 0.0.4| Beta Update |
 
 
 
-V. 0.0.4.1| Beta Update |
+V. 0.0.4.1| Dev Update |
 
 | News |
 - Добавлена смена темы
+
+
+
+V. 0.0.4.2| Dev Update |
+
+| Removes |
+-  Удалена смена темы
