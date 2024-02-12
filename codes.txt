@@ -1,0 +1,20 @@
+//CONSOLE
+<div class="console"><p>Console</p>
+<pre>
+<code>
+
+</code>
+</pre>
+</div>
+
+//JAVA CODE
+<pre><code class="language-java">
+
+</code></pre>
+
+//PRISM CONECTION
+        <!--Prism connection-->
+    <link href="prism.min.css" rel="stylesheet">
+    <link href="console.css" rel="stylesheet">
+    <script src="prism.min.js"></script>
+    <script src="prism-java.min.js"></script>
